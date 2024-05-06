@@ -117,5 +117,5 @@ app.post("/message/receive", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Servidor escutando em http://localhost:${port}`);
+  console.log(`Servidor escutando http://localhost:${port}`);
 });
